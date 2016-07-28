@@ -13,7 +13,7 @@ var fitVids = {};
 		head.appendChild(div);
 
 		return div;
-	}
+	};
 
 	FV.respondify = function(selector) {
 		var container = document.getElementsByClassName(selector.substr(1))[0],
@@ -38,5 +38,3 @@ var fitVids = {};
 	return FV;
 
 })(fitVids);
-
-fitVids.respondify('.videos');
