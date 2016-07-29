@@ -1,5 +1,5 @@
 # Responsive iFrames
-**RI&mdash;in native javascript flavor**
+**Fluid videos with zero framework dependency**
 
 ResponsiveiFrames uses vanilla javascript to make your videos responsive.
 
