@@ -1,6 +1,6 @@
-var fitVids = {};
+var ResponsiveIframes = {};
 
-(function(FV) {
+(function(RI) {
 	'use strict';
 
 	var _buildStyle = function() {
@@ -26,7 +26,7 @@ var fitVids = {};
 		element.parentNode.style.paddingTop = (element.getAttribute('height') / element.getAttribute('width')) * 100 + '%';
 	};
 
-	FV.init = function(selector) {
+	RI.init = function(selector) {
 		var query = document.querySelectorAll(selector),
 			elements = query[0] ? query : document.getElementsByTagName('iframe');
 
@@ -37,6 +37,6 @@ var fitVids = {};
 		}
 	};
 
-	return FV;
+	return RI;
 
-})(fitVids);
+})(ResponsiveIframes);

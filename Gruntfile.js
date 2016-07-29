@@ -5,27 +5,27 @@ module.exports = function(grunt) {
 
 
 	clean: {
-		prep: ['fitvids-native.min.js']
+		prep: ['responsive-iframes.min.js']
 	},
 
 	jshint: {
 		options: {
 		reporter: require('jshint-stylish')
 		},
-		build: ['Gruntfile.js', 'fitvids-native.js']
+		build: ['Gruntfile.js', 'responsive-iframes.js']
 	},
 
 	uglify: {
 		build: {
 			files: {
-				'fitvids-native.min.js': 'fitvids-native.js'
+				'responsive-iframes.min.js': 'responsive-iframes.js'
 			}
 		}
 	},
 
 	watch: {
 		scripts: {
-			files: ['fitvids-native.js'],
+			files: ['responsive-iframes.js'],
 			tasks: 'default'
 		}
 	}
