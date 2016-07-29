@@ -5,7 +5,7 @@ ResponsiveiFrames uses vanilla javascript to make your videos responsive.
 
 ## Usage
 
-Just run `RI.respondify('.yourClassName');` to make all the `iframes` in the container responsive, or if you'd
+Just run `RI.init('.yourClassName');` to make all the `iframes` in the container responsive, or if you'd
 like ResponsiveiFrames to make all iframes on the page responsive, just run `RI.init();`, and it does the rest.
 
 ## Concept
