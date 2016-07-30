@@ -1,3 +1,4 @@
+![Imgur](http://i.imgur.com/bSeeesz.gif)
 # Responsive iFrames
 **Fluid videos with zero framework dependency**
 
